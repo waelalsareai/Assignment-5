@@ -11,3 +11,4 @@ cout << "Enter your monthly payment: ";
 cin >> payment;
 cout << "Enter the anual interest rate (APR) as a percentage: ";
 cin >> apr;
+double monthlyRate = (apr / 100) 12;
