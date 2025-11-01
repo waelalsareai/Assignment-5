@@ -23,4 +23,4 @@ while (balance > 0) {
   if (balance < 0)
      balance = 0;
 
-  cout << month << "\t" << interest << "\t" << payment << "\t" << balance << endl;
+  cout << month << "\t" << interest << "\t" << payment << "\t" << balance << endl; }
