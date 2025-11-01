@@ -4,3 +4,10 @@ using namespace std;
 
 int main() {
 double balance, payment, apr;
+cout << "Enter your balance: ";
+cin >> balance;
+
+cout << "Enter your monthly payment: ";
+cin >> payment;
+cout << "Enter the anual interest rate (APR) as a percentage: ";
+cin >> apr;
