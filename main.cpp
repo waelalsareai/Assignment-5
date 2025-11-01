@@ -3,4 +3,4 @@
 using namespace std;
 
 int main() {
-double balance, pay
+double balance, payment, apr;
