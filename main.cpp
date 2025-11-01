@@ -13,3 +13,5 @@ cout << "Enter the anual interest rate (APR) as a percentage: ";
 cin >> apr;
 double monthlyRate = (apr / 100) / 12;
 cout << "\nMonth\tInt\tPay\tBalance\n";
+int month = 0;
+cout << month << "\t" << 0 << "\t" << 0 << "\t" << balance << endl;
