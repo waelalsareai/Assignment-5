@@ -16,3 +16,11 @@ cout << "\nMonth\tInt\tPay\tBalance\n";
 int month = 0;
 cout << month << "\t" << 0 << "\t" << 0 << "\t" << balance << endl;
 while (balance > 0) {
+  month++;
+  double interest = balance * monthlyRate;
+  balance = balance + interest - payment;
+
+  if (balance < 0)
+     balance = 0;
+
+  cout << month << "\t" << interest << "\t" << payment << "\t" << balance << endl;
